@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <input type="radio" id="btn-1" name="toggle" checked>
+    <input type="radio" id="btn-2" name="toggle">
+    <input type="radio" id="btn-3" name="toggle">
     <header class="main-header">
       <nav class="main-navigation">
           <a href="#"><span class="logo-header">DEVICE</span></a>
@@ -16,7 +19,7 @@
           <li><a href="#">Корзина</a></li>
         </ul>
         <ul class="site-navigation">
-          <li><a href="#">Каталог товаров</a></li>
+          <li><a href="#">Каталог товаров</a>
             <ul class="site-submenu">
               <li><a href="#">Вирутальная реальность</a></li>
               <li><a href="#">Моноподы для селфи</a></li>
@@ -25,20 +28,18 @@
               <li><a href="#">Умные часы</a></li>
               <li><a href="#">Квадракоптеры</a></li>
             </ul>
+          </li>
           <li><a href="#">Доставка</a></li>
           <li><a href="#">Гарантия</a></li>
           <li><a href="#">Контакты</a></li>
+        </ul>
       </nav>
     </header>
     <main class="container">
       <h1 class="visually-hidden"> Девайс</h1>
         <section class="slides">
             <h2 class="visually-hidden">Слайдер</h2>
-            <div class="slides-controls">
-              <label for="input-1" class="slides-label slides-label-1"><p class="visually-hidden">Слайд 1</p></label>
-              <label for="input-2" class="slides-label slides-label-2"><p class="visually-hidden">Слайд 2</p></label>
-              <label for="input-3" class="slides-label slides-label-3"><p class="visually-hidden">Слайд 3</p></label>
-            </div>
+            
             <ul class="slides-list">
               <li class="slides-item slide-1">
                 <img src="img/slider-1.png" width="384" height="486" alt="Селфи-палка">
@@ -90,6 +91,12 @@
                 </table>
               </li>
             </ul>
+            <div class="slider-controls">
+              <label for="btn-1"></label>
+              <label for="btn-2"></label>
+              <label for="btn-3"></label>
+            </div>
+
           </section>    
           <section class="hits">
             <h2 class="visually-hidden">Популярные товары</h2>
