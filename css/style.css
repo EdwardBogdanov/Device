@@ -96,4 +96,107 @@ a {
     font-weight:700;
 }
 
+.hit-icon {
+    width:160px;
+    height:160px;
+    background-color:#f7e296;
+    background-image:url("../img/bg-hits.png");
+    background-repeat: no-repeat; 
+}
+
+.hit-icon:hover,
+.hit-icon:focus {
+    background-color: #f0c52e;
+    background-image: url("../img/bg-hits-hover.png");
+}
+
+.hit-icon:active {
+    background-image: url("../img/bg-hits-active.png");
+}
+
+.hit-item:active svg,
+.hit-item:active .hit-info{
+    opacity: 0.3;
+}
+
+.services-list {
+    list-style: none;
+    background-color:#e5e5e5;
+    background-image:url("../img/bg-services.png");
+    background-repeat: no-repeat;
+}
+
+.warranty-info-list,
+.delivery-info-list,
+.credit-info-list {
+    list-style: none;
+}
+
+.services-item a {
+    font-family: "Girloy", "Verdana", sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.036em;
+    color:#000000;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: url("../img/line-yellow.png");
+    width: 160px;
+}
+
+.services-info h2 {
+    font-family: "Girloy", "Verdana", sans-serif;
+    font-size:47px;
+    letter-spacing: 0.01em;
+    color:#000000;
+}
+
+.services-info p {
+    font-family: "Open sans", Verdana, sans-serif;
+    font-size:15px;
+    line-height: 30px;
+    letter-spacing: 0.001em;  
+}
+
+.logos-list {
+    list-style: none;
+}
+
+.about {
+    font-family: "Open Sans", "Verdana", sans-serif;
+    font-size:15px;
+    line-height: 30px;
+    color:#464646;
+}
+
+.about h2 {
+    font-size:47px;
+    font-family: "Girloy", "Verdana", sans-serif;
+    letter-spacing: 0.01em;
+    color:#000000;
+}
+
+.delivery-company-list {
+    list-style:none;
+}
+
+.delivery-company-list li {
+    font-weight: 700;
+    font-family: "Girloy", "Verdana",sans-serif;
+    font-size:16px;
+    line-height: 40px;
+    color:#000000;
+}
+
+.about a {
+    color:#000000;
+    font-size:18px;
+    letter-spacing: 0.036em;
+    text-transform: uppercase;
+    font-family: "Girloy", "Verdana", sans-serif;
+}
+
+
+
+
 
