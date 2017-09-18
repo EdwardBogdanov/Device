@@ -162,14 +162,15 @@ a {
     list-style: none;
 }
 
-.about {
+.about,
+.contacts {
     font-family: "Open Sans", "Verdana", sans-serif;
     font-size:15px;
     line-height: 30px;
     color:#464646;
 }
 
-.about h2 {
+.index-columns h2 {
     font-size:47px;
     font-family: "Girloy", "Verdana", sans-serif;
     letter-spacing: 0.01em;
@@ -188,12 +189,42 @@ a {
     color:#000000;
 }
 
-.about a {
+.about a,
+.contacts a {
     color:#000000;
     font-size:18px;
     letter-spacing: 0.036em;
     text-transform: uppercase;
     font-family: "Girloy", "Verdana", sans-serif;
+}
+
+.btn {
+    text-align:center;
+    color:#000000;
+    vertical-align: middle;
+    border:none;
+    background-color: #f0c52e;
+}
+
+.main-footer {
+    background-color:#464646;
+    background-image: url("../img/bg-footer.png");
+    background-repeat: no-repeat;
+}
+
+.main-footer a,
+.main-footer p {
+    list-style: none;
+    color:#ffffff;
+}
+
+.footer-site-menu a{
+    font-family: "Girloy", "Verdana", sans-serif;
+    font-size:18px;
+    letter-spacing: 0.09em;
+    font-weight:700;
+    text-transform: uppercase;
+}
 }
 
 
