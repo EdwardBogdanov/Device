@@ -18,8 +18,9 @@ a {
     text-decoration: none;
 }
 
-.btn {
-    
+.btn,
+.btn-service {
+    display: inline;
     box-sizing: border-box;
     text-align:center;
     color:#000000;
@@ -45,6 +46,17 @@ a {
     z-index: -1;
     margin-left:-45px;
 }
+.btn-service::before {
+    content: "";
+    position: absolute;
+    width:220px;
+    height:8px;
+    background-image: url("../img/line-yellow.png");
+    top:40%;
+    z-index: -1;
+    
+}
+
 
 .btn:hover,
 .btn:focus {
